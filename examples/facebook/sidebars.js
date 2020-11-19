@@ -10,6 +10,7 @@
 module.exports = {
   someSidebar: [
     {
+      key: 'docusaurus', // Error: Unknown sidebar item keys: key.
       type: 'category',
       label: 'Docusaurus',
       items: ['doc1', 'doc2', 'doc3'],
